@@ -7,6 +7,7 @@ import OtherCollection from '../OtherCollection/OtherCollection'
 import SummerCollection from '../SummerCollection/SummerCollection'
 import FashionBlog from '../FahionBlog/FashionBlog'
 import Newsletter from '../Newsletter/Newsletter'
+import Review from '../Review/Review'
 
 
 
@@ -18,6 +19,7 @@ const Home = () => {
     <Trending/>
     <Collection/>
     <Fashion/>
+    <Review/>
     <OtherCollection/>
     <SummerCollection/>
     <FashionBlog/>

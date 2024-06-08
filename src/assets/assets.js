@@ -18,9 +18,15 @@ import  SummerCollection_two from './22.jpg'
 import  SummerCollection_three from './23.jpg'
 import  SummerCollection_FOUR from './24.jpg'
 import  SummerCollection_Five from './25.jpg'
+import  Review_one from './18.jpg'
+import  Review_two from './19.jpg'
 
 
 export const assets = {
+    Review_one,
+    Review_two,
+
+
     trending_imgone,
     trending_imgtwo,
     trending_imgthree,
