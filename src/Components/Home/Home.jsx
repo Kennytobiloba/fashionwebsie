@@ -5,6 +5,8 @@ import Collection from '../Collection/Collection'
 import Fashion from '../Fashion/Fashion'
 import OtherCollection from '../OtherCollection/OtherCollection'
 import SummerCollection from '../SummerCollection/SummerCollection'
+import FashionBlog from '../FahionBlog/FashionBlog'
+import Newsletter from '../Newsletter/Newsletter'
 
 
 
@@ -18,6 +20,8 @@ const Home = () => {
     <Fashion/>
     <OtherCollection/>
     <SummerCollection/>
+    <FashionBlog/>
+    <Newsletter/>
      
     </div>
   )

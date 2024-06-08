@@ -12,7 +12,7 @@ import  Collection_imgFive from './13.jpg'
 import  Collection_imgSix from './14.jpg'
 import  Collection_imgSeven from './15.jpg'
 import  Collection_imgEight from './16.jpg'
-import  Background from './bg.jpeg'
+import  Background from './download.jpeg'
 import  SummerCollection from './21.jpg'
 import  SummerCollection_two from './22.jpg'
 import  SummerCollection_three from './23.jpg'
@@ -178,3 +178,25 @@ export const assets = {
         
     ]
     
+export const FashionBlogs = [
+    {
+        image:SummerCollection_two,
+        text:"Believe that life is worth living and your belief will help create the fact.",
+        date:"JULY 9"
+    },
+    {
+        image:SummerCollection_three,
+        text:"Age and size are only numbers. It’s the attitude you bring to clothes.",
+        date:"MAY 9"
+    },
+    {
+        image:SummerCollection_FOUR,
+        text:"Any half-awake materialist well knows – which you hold holds you.",
+        date:"JULY 9"
+    },
+    {
+        image:SummerCollection_Five,
+        text:"Comfort and simplicity are two keys that I follow when it comes to fashion.",
+        date:"AUG 9"
+    }
+] 

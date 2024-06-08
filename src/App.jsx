@@ -5,6 +5,7 @@ import Head from './Components/Head/Head'
 import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import Product from './Components/Product/Product'
+import Footer from './Components/Footer/Footer'
 
 
 
@@ -19,7 +20,7 @@ function App() {
   <Route path='/Product/:id' element={<Product/>}/>
 
   </Routes>
-  
+  <Footer/>
   
     </>
      
