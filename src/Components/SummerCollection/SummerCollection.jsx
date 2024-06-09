@@ -7,8 +7,8 @@ const SummerCollection = () => {
         <div>
             <img src={assets.SummerCollection} alt="" className='w-full h-full' />
         </div>
-        <div className=' flex justify-center flex-col'>
-            <h3 className='md:text-lg text-sm text-[#cf802e] mb-2'>SUMMER COLLECTION</h3>
+        <div className=' flex justify-center flex-col px-6 md:px-0'>
+            <h3 className='md:text-lg text-sm text-[#cf802e] mb-2 text-center'>SUMMER COLLECTION</h3>
             <h1 className='lg:text-5xl md:text-3xl text-[16px] font-bold  mb-4'>Time to Shine</h1>
             <p className='text-[16px] mb-4'>Ne sed vero libris, his vivendo referrentur an. Torquatos voluptatum sit ad. Legendos dignissim eu mea, sea ei doming inimicus adolescens. Stet iusto deserunt sed in, ex quo quot invidunt.</p>
             <p className='text-[16px] mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, labore et dolore magna aliquased do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis labore et dolore magna aliqua nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

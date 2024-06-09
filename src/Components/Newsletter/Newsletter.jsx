@@ -2,9 +2,9 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <div className='lg:w-[80%] w-full mx-auto text-center mt-[10%]'>
+    <div className='lg:w-[80%] w-full h-auto lg:p-8 mx-auto text-center mt-[12%]'>
         <div className='mt-[30%] lg:mt-20'>
-            <h1 className='3xl:text-3xl  font-bold lg:text-3xl text-lg'>Join Our Newsletter</h1>
+            <h1 className='3xl:text-3xl  font-bold lg:text-3xl text-2xl'>Join Our Newsletter</h1>
             <p className='mt-4  lg:w-[40%] w-[70%] mx-auto mb-8 lg:text-[18px] text-[16px]'>orem ipsum dolor sit amet, consectetuer adipiscing elit.
             Aenean commodo ligula eget dolor. Aenean massa.</p>
            <div className='border border-gray-300 w-[50%] mx-auto mt-2'>

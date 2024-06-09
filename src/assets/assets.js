@@ -20,11 +20,19 @@ import  SummerCollection_FOUR from './24.jpg'
 import  SummerCollection_Five from './25.jpg'
 import  Review_one from './18.jpg'
 import  Review_two from './19.jpg'
+import  Product_one from './30.jpg'
+import  Product_two from './31.jpg'
+import  Product_three from './32.jpg'
 
 
 export const assets = {
     Review_one,
     Review_two,
+
+    
+    Product_one,
+    Product_two,
+    Product_three,
 
 
     trending_imgone,
@@ -63,7 +71,10 @@ export const assets = {
         price:"$135.00",
         Product:"Product",
         image:Collection_imgone,
-        category:"product"
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
 
     },
     {
@@ -73,7 +84,10 @@ export const assets = {
         price:"$155.00",
         Product:"Product",
         image:Collection_imgtwo,
-        category:"product"
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
         
     },
     {
@@ -83,7 +97,10 @@ export const assets = {
         price:"$165.00",
         Product:"Product",
         image:Collection_imgthree,
-        category:"product"
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
         
     },
     {
@@ -93,7 +110,10 @@ export const assets = {
         price:"$168.00",
         Product:"Product",
         image:Collection_imgFour,
-        category:"product"
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
         
     },
     {
@@ -103,7 +123,10 @@ export const assets = {
         price:"$135.00",
         Product:"Product",
         image:Collection_imgFive,
-        category:"product"
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
 
     },
     {
@@ -113,7 +136,10 @@ export const assets = {
         price:"$155.00",
         Product:"Product",
         image:Collection_imgSix,
-        category:"product"
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
         
     },
     {
@@ -123,7 +149,10 @@ export const assets = {
         price:"$165.00",
         Product:"Product",
         image:Collection_imgSeven,
-        category:"product"
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
         
     },
     {
@@ -133,7 +162,10 @@ export const assets = {
         price:"$168.00",
         Product:"Product",
         image:Collection_imgEight,
-        category:"product"
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
         
     },
     

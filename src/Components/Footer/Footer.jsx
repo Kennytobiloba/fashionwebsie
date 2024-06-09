@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-black flex flex-col justify-center pt-[20px] mt-20 text-white px-10 2xl:px-20'>
+    <div className='bg-black relative bottom-0 flex flex-col justify-center pt-[20px] mt-20 text-white px-10 2xl:px-20'>
         <div className='grid md:grid-cols-6 gap-10 grid-cols-1 2xl:w-[80%] w-full mx-auto 2xl:p-10'>
             {/* first section */}
             <div className='flex flex-col items-start gap-6 '>

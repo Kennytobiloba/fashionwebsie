@@ -1,19 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 const Items = (props) => {
+  const [hover, setHover] = useState(false)
   return (
-    <div>
+    <div className=''>
       <Link to={`/Product/${props.id}`}>
-        <img src={props.image} alt="" className='w-full h-full ' />
-        <h3 className='absolute top-0 left-0 px-8 py-2 lg:text-lg text-sm font-bold bg-white '>{props.product}</h3>
+        <img src={props.image} alt="" className='w-full h-full ' onMouseOver={()=>setHover(true)} onMouseLeave={()=>setHover(false)} />
+        <h3 className='absolute top-0 left-0 px-8 py-2 2xl:text-lg text-sm font-bold bg-white '>{props.product}</h3>
         <div>
-        <div className='flex gap-4 px-6 py-4 absolute bottom-[4.5rem] right-0 bg-white'>
+        {
+          hover && (
+            <div  onMouseOver={()=>setHover(true)} onMouseLeave={()=>setHover(false)} className='flex gap-4 2xl:px-6 2xl:py-4 px-6 py-4 md:p-2  absolute md:bottom-[4.5rem] bottom-[3rem]  right-0 bg-white'>
           <i className="fa fa-heart"></i>
           <i className="fa fa-eye"></i>
           <i className=" fa fa-shopping-bag"></i>
         
         </div>
+          )
+        }
         
         </div>
         </Link>
