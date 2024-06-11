@@ -11,8 +11,8 @@ import { Pagination, Autoplay } from 'swiper/modules';
 const ProductDetails = (props) => {
     const { product } = props;
     return (
-        <div className='flex md:flex-row flex-col md:mx-0 mx-auto mt-20 gap-10 2xl:w-[70%] md:w-[80%] lg:w-[75%] w-[100%]' >
-            <div className='flex-shrink-0 mx-auto md:mx-0  h-[70vh] md:w-[60%] w-[96%]   ' >
+        <div className='flex md:flex-row flex-col md:mx-0 mx-auto mt-20 gap-10 w-[100%] ' >
+            <div className='flex-shrink-0 mx-auto md:mx-0  h-[70vh] md:w-[60%] w-[100%]   ' >
                 <Swiper
                     pagination={{
                         clickable: true,
@@ -41,7 +41,7 @@ const ProductDetails = (props) => {
                 </Swiper>
                 <div className="swiper-pagination" style={{ display: 'flex', justifyContent: 'center', marginTop: '16px' }}></div>
             </div>
-            <div className='flex-1 text-center md:text-start'>
+            <div className=' text-center md:text-start md:w-[50%] w-full '>
                 <h1 className='2xl:text-3xl lg:text-2xl md:2xl text-[20px] mb-4 font-bold'>Product Detail</h1>
                 <h3 className='lg:text-2xl text-[18px] mb-4'>{product.price}</h3>
                 <div className='flex gap-2 items-center justify-center md:justify-start '>
@@ -54,7 +54,7 @@ const ProductDetails = (props) => {
                     </span>
                     <span className='2xl:text-[18px] text-[12px]'>(1 customer review)</span>
                 </div>
-                <p className='md:w-[80%] w-[70%] text-[18px] mt-4 mx-auto md:mx-0'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                <p className='md:w-[100%] w-[70%] text-[18px] mt-4 mx-auto md:mx-0'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                 <div className='flex gap-4 items-center mt-6 justify-center md:justify-start'>
                     <input type="number" placeholder='1' className='w-[70px] bg-pink-100 border-gray-300 border-2 2xl:px-4 2xl:py-[1.2rem] py-[0.8rem] px-4 ' />
                     <h6><a className="button capitalize 2xl:text-[16px] text-[14px] font-bold hover:bg-gray-500 md:p-4  flex  text-white bg-[#cf802e] py-4 px-6" href="#">Add to cart</a></h6>

@@ -23,11 +23,15 @@ import  Review_two from './19.jpg'
 import  Product_one from './30.jpg'
 import  Product_two from './31.jpg'
 import  Product_three from './32.jpg'
+import  Reviews_one from './33.jpg'
+import  Reviews_twos from './34.jpg'
 
 
 export const assets = {
     Review_one,
     Review_two,
+    Reviews_one,
+    Reviews_twos,
 
     
     Product_one,
@@ -180,7 +184,9 @@ export const assets = {
         price:"$135.00",
         Product:"Product",
         image:Collection_imgone,
-        category:"product"
+        category:"product",
+        topProduct_name:"Season Favorites",
+        topProduct_price:"$98.00",
 
     },
     {
@@ -190,7 +196,10 @@ export const assets = {
         price:"$155.00",
         Product:"Product",
         image:Collection_imgtwo,
-        category:"product"
+        category:"product",
+        topProduct_name:"Sed Cursus Ante",
+        topProduct_price:"$48.00",
+    
         
     },
     {
@@ -200,7 +209,9 @@ export const assets = {
         price:"$165.00",
         Product:"Product",
         image:Collection_imgthree,
-        category:"product"
+        category:"product",
+        topProduct_name:"Nulla Quis Sem",
+        topProduct_price:"$78.00",
         
     },
     {
@@ -220,17 +231,23 @@ export const FashionBlogs = [
     {
         image:SummerCollection_two,
         text:"Believe that life is worth living and your belief will help create the fact.",
-        date:"JULY 9"
+        date:"JULY 9",
+        topProduct_name:"Season Favorites",
+        topProduct_price:"$98.00",
     },
     {
         image:SummerCollection_three,
         text:"Age and size are only numbers. It’s the attitude you bring to clothes.",
-        date:"MAY 9"
+        date:"MAY 9",
+        topProduct_name:"Sed Cursus Ante",
+        topProduct_price:"$48.00",
     },
     {
         image:SummerCollection_FOUR,
         text:"Any half-awake materialist well knows – which you hold holds you.",
-        date:"JULY 9"
+        date:"JULY 9",
+        topProduct_name:"Nulla Quis Sem",
+        topProduct_price:"$78.00",
     },
     {
         image:SummerCollection_Five,
@@ -238,3 +255,19 @@ export const FashionBlogs = [
         date:"AUG 9"
     }
 ] 
+
+export  const Review =[
+    {
+        image:Reviews_one,
+        text:"Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aditivo minim veniam, quis nostrud exercitation ullamc laboris.",
+        name:"LOREM DIAM",
+        date:"June 19, 2021"
+    },
+    {
+        image:Reviews_twos,
+        text:"Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aditivo minim veniam, quis nostrud exercitation ullamc laboris.",
+        name:"SEMP NULLA",
+        date:"July 18, 2021"
+    }
+
+]
