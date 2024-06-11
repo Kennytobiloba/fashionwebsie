@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import NavLinks from '../NavLinks/NavLinks'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(true)
@@ -17,11 +18,15 @@ const Navbar = () => {
      </div>
      </div>
      {/* navbar Links */}
-     
+     <div className='flex gap-8 items-center'>
      <div className=' md:flex hidden  text-black text-[16px] font-poppins hover:text-[#cf802e]  justify-between items-center gap-4'>
      <i className="fa fa-search"></i>
      <a href="#"><i className="fa fa-heart"></i> Wishlist </a>
-
+     
+     </div>
+     <Link to="cart">
+     <i className="fa fa-shopping-cart"></i>
+     </Link>
      </div>
      <div className='md:hidden flex justify-center items-center'>
      { toggle ? <i className="fa-solid fa-bars text-[28px]" onClick={()=> setToggle(false)}></i> : <i className="fa-regular fa-circle-xmark text-[28px]" onClick={()=> setToggle(true)}></i> }

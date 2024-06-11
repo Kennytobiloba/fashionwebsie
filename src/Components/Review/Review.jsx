@@ -14,7 +14,7 @@ import { assets } from '../../assets/assets';
 
 const Review = () => {
   return (
-    <div style={{ position: 'relative', height: '50vh' }}>
+    <div className='mt-20' style={{ position: 'relative', height: '50vh' }}>
       <Swiper
         pagination={{
           clickable: true,
@@ -33,8 +33,8 @@ const Review = () => {
             
 
       <div> 
-    <h3 className='md:text-lg text-sm text-[#cf802e] mb-2'>SUMMER COLLECTION</h3>
-    <h1 className='lg:text-4xl md:text-3xl text-[16px] font-bold  mb-6'>What they’re saying</h1>
+    <h3 className='md:text-[18px] text-[16px] lg-[20px] text-[#cf802e] mb-2'>SUMMER COLLECTION</h3>
+    <h1 className='lg:text-3xl md:text-2xl text-[26px] font-bold  mb-6'>What they’re saying</h1>
      <p className='lg:w-[50%] w-[70%] mx-auto text-[16px]'>At quidam dissentiet definitionem eam, te nec ullum similique. Verear
      appareat adversarium id eos, eum ei aperiri vivendo quaestio, mea leg
      ea. Quo probo noluisse menandri an.</p>
@@ -48,8 +48,8 @@ const Review = () => {
         <SwiperSlide>
             
       <div>
-    <h3 className='md:text-lg text-sm text-[#cf802e] mb-2'>SUMMER COLLECTION</h3>
-    <h1 className='lg:text-4xl md:text-3xl text-[16px] font-bold  mb-6'>What they’re saying</h1>
+    <h3 className='md:text-[18px] text-[16px] lg-[20px] text-[#cf802e] mb-2'>SUMMER COLLECTION</h3>
+    <h1 className='lg:text-3xl md:text-2xl text-[26px]  font-bold  mb-6'>What they’re saying</h1>
      <p className='lg:w-[50%] w-[70%]  mx-auto text-[16px]'>At quidam dissentiet definitionem eam, te nec ullum similique. Verear
      appareat adversarium id eos, eum ei aperiri vivendo quaestio, mea leg
      ea. Quo probo noluisse menandri an.</p>
@@ -62,8 +62,8 @@ const Review = () => {
         <SwiperSlide>
             
       <div>
-    <h3 className='md:text-lg text-sm text-[#cf802e] mb-2'>SUMMER COLLECTION</h3>
-    <h1 className='lg:text-4xl md:text-3xl text-[16px] font-bold  mb-6'>What they’re saying</h1>
+    <h3 className='md:text-[18px] text-[16px] lg-[20px]  text-[#cf802e] mb-2'>SUMMER COLLECTION</h3>
+    <h1 className='lg:text-3xl md:text-2xl text-[26px]  font-bold  mb-6'>What they’re saying</h1>
      <p className='lg:w-[50%] w-[70%]  mx-auto text-[16px]'>At quidam dissentiet definitionem eam, te nec ullum similique. Verear
      appareat adversarium id eos, eum ei aperiri vivendo quaestio, mea leg
      ea. Quo probo noluisse menandri an.</p>

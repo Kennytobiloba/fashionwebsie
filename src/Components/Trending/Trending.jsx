@@ -3,7 +3,7 @@ import { assets } from '../../assets/assets';
 
 const Trending = () => {
   return (
-    <div className=' mt-12 lg:w-[80%] mx-auto w-full'>
+    <div className=' mt-12 lg:w-[80%] mx-auto w-[90%]'>
       <div className='grid grid-cols-1 md:grid-cols-3 2xl:grid-cols-3 sm:grid-cols-1 mx-auto lg:grid-cols-3 gap-10 lg:gap-[2rem]'>
         <div className='relative '>
           <img src={assets.trending_imgone} alt="" className='w-full h-auto ' />

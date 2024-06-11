@@ -3,10 +3,10 @@ import { FashionBlogs } from '../../assets/assets'
 FashionBlogs
 const FashionBlog = () => {
   return (
-    <div className='w-[100%] lg:w-[80%] mx-auto mt-20'>
+    <div className='w-[90%] lg:w-[80%] mx-auto mt-20'>
         <div className='text-center mb-8'>
-            <h3 className='md:text-lg text-sm text-[#cf802e] mb-2'>LOVE SHOPPING</h3>
-            <h1 className='lg:text-4xl md:text-3xl text-[16px] font-bold  mb-2'>Fashion Blog</h1>
+            <h3 className='md:text-[18px] text-[16px] lg:text-[20px] text-[#cf802e] mb-2'>LOVE SHOPPING</h3>
+            <h1 className='lg:text-3xl md:text-2xl text-[26px] font-bold   mb-2'>Fashion Blog</h1>
             <p className='text-[16px] 2xl:w-[30%] mb-4 w-[80%] lg:w-[50%] mx-auto text-center'>Autem neglegentur in duo, ex aperiam fabulas mei, exerci
             menandri explicari ut mei. Eam cibo et.</p>
             </div>

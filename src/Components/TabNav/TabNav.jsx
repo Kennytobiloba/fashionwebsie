@@ -17,7 +17,7 @@ const TabNav = () => {
   return (
     <div className="w-full mt-20 shadow-lg rounded-lg">
       <TabView activeIndex={activeIndex} onTabChange={handleTabChange} className="custom-tabview">
-        <TabPanel header={<span className={`text-[22px] font-semibold border-b-1  border-[#cf802e] ${activeIndex === 0 ? 'border-b-4   border-[#cf802e] text-[#cf802e]' : 'text-black hover:text-[#cf802e]'}`}>DESCRIPTION</span>}>
+        <TabPanel header={<span className={`lg:text-[22px] md:text-[20px] text-[18px] font-semibold border-b-1  border-[#cf802e] ${activeIndex === 0 ? 'border-b-4   border-[#cf802e] text-[#cf802e]' : 'text-black hover:text-[#cf802e]'}`}>DESCRIPTION</span>}>
         <div className="border-b border-[#f9dab6]"></div>
           
           <div className="p-4">
@@ -30,7 +30,7 @@ const TabNav = () => {
             </div>
           </div>
         </TabPanel>
-        <TabPanel header={<span className={`text-[22px] font-semibold ${activeIndex === 1 ? 'border-b-4 border-[#cf802e] text-[#cf802e]' : 'text-black hover:text-[#cf802e]'}`}>INFORMATION</span>}>
+        <TabPanel header={<span className={`lg:text-[22px] md:text-[20px] text-[18px]  font-semibold ${activeIndex === 1 ? 'border-b-4 border-[#cf802e] text-[#cf802e]' : 'text-black hover:text-[#cf802e]'}`}>INFORMATION</span>}>
         <div className="border-b border-[#f9dab6]"></div>
           <div className="p-4">
           <div >
@@ -48,7 +48,7 @@ const TabNav = () => {
             </div>
           </div>
         </TabPanel>
-        <TabPanel header={<span className={`text-[22px] font-semibold ${activeIndex === 2 ? 'border-b-4 border-[#cf802e] text-[#cf802e]' : 'text-black hover:text-[#cf802e]'}`}>REVIEW (2)</span>}>
+        <TabPanel header={<span className={`lg:text-[22px] md:text-[20px] text-[18px]  font-semibold ${activeIndex === 2 ? 'border-b-4 border-[#cf802e] text-[#cf802e]' : 'text-black hover:text-[#cf802e]'}`}>REVIEW (2)</span>}>
         <div className="border-b border-[#f9dab6]"></div>
           <div className="p-4">
            <div>

@@ -15,8 +15,8 @@ const Product = () => {
         );
     }
     return (
-        <div className='lg:w-[80%] w-full mx-auto mt-20 gap-20  flex justify-between flex-col md:flex-row overflow-hidden'>
-            <div className='flex flex-col md:max-w-[70%] w-[95%] mx-auto md:mx-0 '>
+        <div className='2xl:w-[80%] md:w-[90%] w-[90%] mx-auto mt-20 md:gap-10 lg:gap-20 gap-20  flex justify-between flex-col md:flex-row overflow-hidden'>
+            <div className='flex flex-col md:max-w-[68%] lg:max-w-[60%]   2xl:max-w-[70%]   w-[95%] mx-auto md:mx-0 '>
             <ProductDetails product={product} />
             <TabNav/>
             

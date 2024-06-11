@@ -7,7 +7,7 @@ import 'swiper/css/navigation';
 
 const FashionDisplay = () => {
   return (
-    <div className='lg:w-[80%] w-full mx-auto text-left relative'>
+    <div className='lg:w-[80%] w-[90%] mx-auto text-left relative'>
       <Swiper
         pagination={{
           type: 'progressbar',

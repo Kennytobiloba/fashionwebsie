@@ -6,6 +6,7 @@ import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import Product from './Components/Product/Product'
 import Footer from './Components/Footer/Footer'
+import Carts from './Pages/Carts/Carts'
 
 
 
@@ -18,6 +19,7 @@ function App() {
   <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/Product/:id' element={<Product/>}/>
+  <Route path='/cart' element={<Carts/>}/>
 
   </Routes>
   <Footer/>

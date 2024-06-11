@@ -5,10 +5,10 @@ import Items from '../Items/Items'
 const Collection = () => {
   return (
     <div>
-      <div className=' lg:w-[80%] w-full mx-auto mt-20'>
+      <div className=' lg:w-[80%] w-[90%] mx-auto mt-20'>
       <div className='  text-center'>
-        <h3 className='md:text-lg text-sm text-[#cf802e] font-bold '>SUMMER COLLECTION</h3>
-        <h1 className='lg:text-2xl md:text-2xl text-lg  mt-2 font-bold mb-2 '>Shopping Every Day</h1>
+        <h3 className='md:text-[18px] text-[16px] lg:text-[20px] text-[#cf802e] font-bold '>SUMMER COLLECTION</h3>
+        <h1 className='lg:text-3xl md:text-2xl text-[26px]  mt-2 font-bold mb-2 '>Shopping Every Day</h1>
         <p className='text-[16px] 2xl:w-[30%] w-[70%] mt-2 mx-auto text-center'>Autem neglegentur in duo, ex aperiam fabulas mei, exerci
         menandri explicari ut mei. Eam cibo et.</p>
 
