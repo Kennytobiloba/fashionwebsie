@@ -6,7 +6,7 @@ const Items = (props) => {
   return (
     <div className=''>
       <Link to={`/Product/${props.id}`}>
-        <img src={props.image} alt="" className='w-full h-full ' onMouseOver={()=>setHover(true)} onMouseLeave={()=>setHover(false)} />
+        <img src={props.image} alt="" className='w-full h-full transition duration-100 transform  hover:shadow-md hover:scale-95 ' onMouseOver={()=>setHover(true)} onMouseLeave={()=>setHover(false)} />
         <h3 className='absolute top-0 left-0 px-8 py-2 2xl:text-lg text-sm font-bold bg-white '>{props.product}</h3>
         <div>
         {

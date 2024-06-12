@@ -25,9 +25,12 @@ import  Product_two from './31.jpg'
 import  Product_three from './32.jpg'
 import  Reviews_one from './33.jpg'
 import  Reviews_twos from './34.jpg'
+import  OurStory from './35.jpg'
 
 
 export const assets = {
+
+    OurStory,
     Review_one,
     Review_two,
     Reviews_one,
