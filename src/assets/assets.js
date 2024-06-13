@@ -26,9 +26,18 @@ import  Product_three from './32.jpg'
 import  Reviews_one from './33.jpg'
 import  Reviews_twos from './34.jpg'
 import  OurStory from './35.jpg'
+import  New_one from './12.jpg'
+import  New_two from './15.jpg'
+import  New_three from './16.jpg'
+import  New_four from './31.jpg'
 
 
 export const assets = {
+
+    New_one,
+    New_two,
+    New_three,
+    New_four,
 
     OurStory,
     Review_one,
@@ -90,7 +99,7 @@ export const assets = {
         id:2,
         price:"$155.00",
         Product:"Product",
-        image:Collection_imgtwo,
+        image:New_four,
         category:"product",
         productimage_one:Product_one,
         productimage_two:Product_two,
@@ -142,7 +151,7 @@ export const assets = {
         id:6,
         price:"$155.00",
         Product:"Product",
-        image:Collection_imgSix,
+        image:Product_one,
         category:"product",
         productimage_one:Product_one,
         productimage_two:Product_two,
@@ -168,7 +177,59 @@ export const assets = {
         id:8,
         price:"$168.00",
         Product:"Product",
-        image:Collection_imgEight,
+        image:Product_two,
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
+        
+    },
+    {
+        name:"Lorem Ante",
+        product:"NEW",
+        id:9,
+        price:"$135.00",
+        Product:"Product",
+        image:New_two,
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
+
+    },
+    {
+        name:"Ipsum Dolor",
+        product:"New",
+        id:10,
+        price:"$155.00",
+        Product:"Product",
+        image:New_one,
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
+        
+    },
+    {
+        name:"Ipsum Dolor",
+        product:"SALE",
+        id:11,
+        price:"$155.00",
+        Product:"Product",
+        image:Collection_imgSix,
+        category:"product",
+        productimage_one:Product_one,
+        productimage_two:Product_two,
+        productimage_three:Product_three,
+        
+    },
+    {
+        name:"Nulla Quis",
+        product:"LATEST",
+        id:12,
+        price:"$165.00",
+        Product:"Product",
+        image:Collection_imgSeven,
         category:"product",
         productimage_one:Product_one,
         productimage_two:Product_two,

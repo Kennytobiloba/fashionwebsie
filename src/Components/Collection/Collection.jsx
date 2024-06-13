@@ -15,7 +15,7 @@ const Collection = () => {
       </div>
       <div className='grid grid-cols-1 lg:grid-cols-4 md:grid-cols-4 2xl:grid-cols-4 sm:grid-cols-2 mt-6 gap-10'>
         {
-         all_data.map((item, id) => {
+         all_data.slice(0,8).map((item, id) => {
           return(
             <div className='relative' key={id}>
               <Items name={item.name} image={item.image} product={item.product} price={item.price} id={item.id} category={item.category} />

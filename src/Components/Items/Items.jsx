@@ -18,8 +18,7 @@ const Items = (props) => {
         
         </div>
           )
-        }
-        
+        }  
         </div>
         </Link>
         <div className='mt-4'>

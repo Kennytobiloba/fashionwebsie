@@ -11,7 +11,7 @@ const NavLinks = () => {
       subLinks: [
         {
           Head: "Shop",
-          sublink: [{ name: "Shop", path: "/shop" }, { name: "Shop Details", path: "/shop-details" }]
+          sublink: [{ name: "Shop", path: "/shopProduct" }, { name: "Shop Details", path: "/ProductDetails" }]
         }
       ]
     },

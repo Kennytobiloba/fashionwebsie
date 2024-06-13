@@ -3,7 +3,7 @@ import { Othercollections } from '../../assets/assets'
  
 const PriceCategory = () => {
   return (
-    <div  className="w-[100%] mt-20 grid grid-cols-1 " >
+    <div  className="w-[100%] grid grid-cols-1 " >
         <div className='w-[100%]  px-4 py-4 shadow-md text-center md:text-start '>
             <h1 className='2xl:text-2xl text-[18px] font-bold'>Price Filter</h1>
             <input type="range" className="form-range mt-3 w-full" id="customRange1" />
