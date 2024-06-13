@@ -30,9 +30,18 @@ import  New_one from './12.jpg'
 import  New_two from './15.jpg'
 import  New_three from './16.jpg'
 import  New_four from './31.jpg'
+import  image_one from './37.jpg'
+import  image_two from './38.jpg'
+import  image_three from './41.jpg'
+import  image_four from './43.jpg'
 
 
 export const assets = {
+
+    image_one,
+    image_two,
+    image_three,
+    image_four,
 
     New_one,
     New_two,
@@ -77,6 +86,72 @@ export const assets = {
 
     
 }
+
+export const RecentPost = [
+    {
+     img:SummerCollection_three,
+     name:"Lorem Dolor",
+     product:"Blue Basics",
+     date:"JUNE 12"
+    },
+    {
+        img:SummerCollection_FOUR,
+        name:"Eget Nulla",
+        product:"Other Latset",
+        date:"MAY 8"
+    },
+    {
+        img:SummerCollection_Five,
+        name:"Quis Sem",
+        product:"Pink Style",
+        date:"SEPTEMBER 6"
+       }
+]
+
+export const Teams = [
+    {
+     img:SummerCollection,
+     job:"PHOTOGRAPHER",
+     name:"Eget Quis"
+    },
+    {
+        img:SummerCollection_three,
+        job:"MARKETING MANAGER",
+        name:"Nulla Porta"
+   },
+   {
+    img:Reviews_twos,
+    job:"CEO",
+    name:"Lorem Amet",
+   },
+   {
+    img:image_one,
+    job:"CREATIVE DIRECTOR ",
+    name:" Augue Sem",
+   },
+   {
+    img:image_two,
+    job:" PHOTOGRAPHER",
+    name:" Eget Quis",
+   },
+   {
+    img:Reviews_one,
+    job:" CREATIVE DIRECTOR",
+    name:" Augue Sem",
+   },
+   {
+    img:image_three,
+    job:"CE)",
+    name:" Lorem Amet",
+   },
+   {
+    img:image_four,
+    job:" CREATIVE DIRECTOR",
+    name:"Augue Sem",
+   },
+   
+
+]
 
  export const all_data  = [
     

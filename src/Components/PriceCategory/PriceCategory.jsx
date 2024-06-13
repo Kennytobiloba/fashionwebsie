@@ -14,6 +14,7 @@ const PriceCategory = () => {
 
 
         </div>
+        
         <div className='w-[100%]  px-4 py-6 mt-10 shadow-md  text-center md:text-start  '>
         <h5 className="2xl:text-2xl text-[18px]  mb-3 text-2xl font-bold">Categories</h5>
        <h6 className="text-[16px]"><a href="#">Accessories (2)</a></h6>

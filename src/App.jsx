@@ -9,6 +9,8 @@ import Carts from './Pages/Carts/Carts';
 import About from './Pages/About/About';
 import Shop from './Pages/Shop/Shop';
 import ShopDetails from './Pages/ShopSection/ShopDetails/ShopDetails';
+import Team from './Pages/Team/Team';
+import Blog from './Pages/Blog/Blog';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/shopProduct' element={<Shop/>} />
           <Route path='/ProductDetails' element={<ShopDetails/>} />
+          <Route path='/Team' element={<Team/>} />
+          <Route path='/Blog' element={<Blog/>} />
         </Routes>
       </div>
       <Footer />
