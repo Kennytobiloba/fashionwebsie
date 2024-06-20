@@ -1,6 +1,6 @@
 import React from 'react'
 import { FashionBlogs } from '../../assets/assets'
-FashionBlogs
+
 const FashionBlog = () => {
   return (
     <div className='w-[90%] lg:w-[80%] mx-auto mt-20'>
@@ -14,7 +14,7 @@ const FashionBlog = () => {
                 {
                     FashionBlogs.map((item, id) => (
                         <div key={id} className='mt-2 relative'>
-                            <img src={item.image} alt="" className='w-full h-full' />
+                            <img src={item.image} alt="" className='w-full h-full object-cover' />
                           <h3 className='absolute px-4 py-2 bg-white top-0 left-0'>  {item.date}</h3>
                             <div className='mt-2 lg:text-lg text-[14px]  '>
                                 <span className=' cursor-pointer hover:text-[#cf802e]' >ADMIN </span>

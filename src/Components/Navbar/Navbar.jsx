@@ -24,7 +24,7 @@ const Navbar = () => {
      <a href="#"><i className="fa fa-heart"></i> Wishlist </a>
      
      </div>
-     <Link to="cart">
+     <Link to="Cart">
      <i className="fa fa-shopping-cart"></i>
      </Link>
      </div>

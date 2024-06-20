@@ -5,9 +5,9 @@ import BlogInfo from '../BlogSection/BlogInfo/BlogInfo'
 const Blog = () => {
   return (
     <div className='w-full bg-pink-50'>
-    <div className='w-[80%] mx-auto mt-20'>
-      <div className='flex justify-between gap-8'>
-      <div className='w-[22%]'>
+    <div className='2xl:w-[80%] w-[90%] mx-auto mt-20'>
+      <div className='flex justify-between  md:flex-row flex-col 2xl:gap-8 gap-10'>
+      <div className='2xl:w-[22%] lg:w-[30%] md:w-[40%] w-full'>
    <BlogAuthor/>
    </div>
 

@@ -2,9 +2,10 @@ import React from 'react'
 import { RecentPost, assets } from '../../../assets/assets'
 
 
-const BlogAuthor = () => {
+const BlogDetailsAuthor = () => {
   return (
-    <div className='w-full md:text-start text-center'>
+    <div>
+        <div className='w-full md:text-start text-center'>
       <h1 className='text-4xl font-bold '>Our Blog</h1>
  <div className='flex items-center border overflow-hidden bg-white shadow-sm mt-8 px-4'>
   <input 
@@ -90,7 +91,8 @@ const BlogAuthor = () => {
 
 </div>
     </div>
+    </div>
   )
 }
 
-export default BlogAuthor
+export default BlogDetailsAuthor

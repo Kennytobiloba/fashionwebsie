@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom';
 const NavLinks = () => {
   const links = [
     { name: "Home", path: "/", className: "text-[#cf802e] hover:text-black" },
-    { name: "About", path: "/about" },
+    { name: "About", path: "/About Us" },
     {
       name: "Shop",
       submenu: true,
       subLinks: [
         {
           Head: "Shop",
-          sublink: [{ name: "Shop", path: "/shopProduct" }, { name: "Shop Details", path: "/ProductDetails" }]
+          sublink: [{ name: "Shop", path: "/Product " }, { name: "Shop Details", path: "/Product Detail" }]
         }
       ]
     },
@@ -21,22 +21,22 @@ const NavLinks = () => {
       subLinks: [
         {
           Head: "Blog",
-          sublink: [{ name: "Blog", path: "/Blog" }, { name: "Blog Details", path: "/blog-details" }]
+          sublink: [{ name: "Blog", path: "/Our Blog" }, { name: "Blog Details", path: "/Blog Detail" }]
         }
       ]
     },
-    { name: "Team", path: "/team" },
+    { name: "Team", path: "/Team" },
     {
       name: "Pages",
       submenu: true,
       subLinks: [
         {
           Head: "Shop",
-          sublink: [{ name: "Shopping Cart", path: "/shopping-cart" }, { name: "Check out", path: "/checkout" }]
+          sublink: [{ name: "Shopping Cart", path: "/Cart" }, { name: "Check out", path: "/checkout" }]
         }
       ]
     },
-    { name: "Contact", path: "/contact" }
+    { name: "Contact", path: "/Contact" }
   ];
 
   const [openSubMenuIndex, setOpenSubMenuIndex] = useState(null);

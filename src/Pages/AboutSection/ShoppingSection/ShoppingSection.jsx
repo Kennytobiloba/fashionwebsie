@@ -2,8 +2,8 @@ import React from 'react'
 
 const ShoppingSection = () => {
   return (
-    <div className='w-full bg-white pt-2 pb-4 mt-10'>
-         <div className='grid md:grid-cols-2 grid-cols-1 lg:w-[80%] md:w-[90%] w-[98%] mx-auto mt-20 gap-20'>
+    <div className='w-full bg-white pt-2 pb-4 '>
+         <div className='grid md:grid-cols-2 grid-cols-1 lg:w-[80%] md:w-[90%] w-[98%] mx-auto  gap-20'>
       <div className='flex justify-center flex-col px-6 md:px-0'>
         <h3 className='md:text-lg text-sm text-[#cf802e] mb-2 md:text-start text-center'>SUMMER COLLECTION</h3>
         <h1 className='lg:text-4xl md:text-3xl text-[28px] font-bold mb-4 md:text-start text-center'>Shopping Everyday</h1>
