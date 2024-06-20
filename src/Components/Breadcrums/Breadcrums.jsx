@@ -26,7 +26,7 @@ const Breadcrumbs = () => {
 
   return (
     <div className='w-full bg-pink-50'>
-      <div className='lg:w-[80%] w-[90%] p-10 mx-auto lg:text-[22px] text-[18px]'>
+      <div className='2xl:w-[80%] lg:w-[90%] w-[98%] p-10 mx-auto lg:text-[22px] text-[18px]'>
         <Link to="/" style={{ marginRight: '5px' }}>Home</Link>
         <span style={{ marginRight: '5px' }}>/</span>
         <span className='text-[#cf802e]'>{crumbs}</span>

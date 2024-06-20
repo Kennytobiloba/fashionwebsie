@@ -5,7 +5,7 @@ import { ShopContext } from "../../ShopContext/ShopContext";
 const Checkout = () => {
    const {  getTotalCartAmount } = useContext(ShopContext);
   return (
-    <div className='w-[80%] mx-auto mt-20 gap-6 grid grid-cols-3 '>
+    <div className='2xl:w-[80%] md:w-[90%] w-[90%] mx-auto mt-20 gap-6 grid md:grid-cols-3 grid-cols-1 '>
         <div className=' col-span-2'>
             <h2 className='lg:text-[20px] text-[18px] font-bold '>Make Your Checkout Here</h2>
             <p className='lg:text-[18px] text-[16px] mt-4'>Please register in order to checkout more quickly</p>
@@ -13,11 +13,11 @@ const Checkout = () => {
                 <div className='flex gap-4 w-full mt-2'> 
                  <div className='w-full'>
                     <h3 className='lg:text-[18px] text-[16px]'>First Name *</h3>
-                 <input type="text"  className='p-4 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
+                 <input type="text"  className='sm:p-4 p-2 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
                  </div>
                  <div className='w-full'>
                     <h3 className='lg:text-[18px] text-[16px]'> Last Name *</h3>
-                 <input type="text"  className='p-4 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
+                 <input type="text"  className='sm:p-4 p-2 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
                  </div>
                
                 </div>
@@ -26,11 +26,11 @@ const Checkout = () => {
                 <div className='flex gap-4 w-full mt-2'> 
                  <div className='w-full'>
                     <h3 className='lg:text-[18px] text-[16px]'>Email Address *</h3>
-                 <input type="text"  className='p-4 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
+                 <input type="text"  className='sm:p-4 p-2 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
                  </div>
                  <div className='w-full'>
                     <h3 className='lg:text-[18px] text-[16px]'>Phone Number *</h3>
-                 <input type="text"  className='p-4 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
+                 <input type="text"  className='sm:p-4 p-2 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
                  </div>
                
                 </div>
@@ -61,22 +61,22 @@ const Checkout = () => {
                 <div className='flex gap-4 w-full mt-2'> 
                  <div className='w-full'>
                     <h3 className='lg:text-[18px] text-[16px]'>Address Line 1 * </h3>
-                 <input type="text"  className='p-4 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
+                 <input type="text"  className='sm:p-4 p-2 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
                  </div>
                  <div className='w-full'>
                     <h3 className='lg:text-[18px] text-[16px]'> Address Line 2 *</h3>
-                 <input type="text"  className='p-4 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
+                 <input type="text"  className='sm:p-4 p-2 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
                  </div>
                
                 </div>
                 <div className='flex gap-4 w-full mt-2'> 
                  <div className='w-full'>
                     <h3 className='lg:text-[18px] text-[16px]'>Postal Code * * </h3>
-                 <input type="text"  className='p-4 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
+                 <input type="text"  className='sm:p-4 p-2  w-full mb-4 text-[16px] border-1 border-gray-200 border' />
                  </div>
                  <div className='w-full'>
                     <h3 className='lg:text-[18px] text-[16px]'> Company  *</h3>
-                 <input type="text"  className='p-4 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
+                 <input type="text"  className='sm:p-4 p-2 w-full mb-4 text-[16px] border-1 border-gray-200 border' />
                  </div>
                
                 </div>
@@ -123,7 +123,7 @@ const Checkout = () => {
                   </div>
 
                   <div className=' text-center mt-6 ' >
-            <a className="button capitalize lg:text-[18px] text-[14px] font-bold hover:bg-gray-500  lg:px-10 px-10 py-4 md:px-4 md:py-4  lg:py-4 2xl:px-18 flex justify-center text-white bg-[#cf802e]" href="#">
+            <a className="button capitalize lg:text-[18px] text-[14px] font-bold hover:bg-gray-500  lg:px-2 px-10 py-4 md:px-4 md:py-4  lg:py-4 2xl:px-18 flex justify-center text-white bg-[#cf802e]" href="#">
               PROCEED TO CHECKOUT
             </a>
           </div>
