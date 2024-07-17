@@ -46,7 +46,7 @@ const NavLinks = () => {
   };
 
   return (
-    <div className='flex md:flex-row flex-col px-6 mx-auto space-y-8 md:space-y-0'>
+    <div className='flex md:flex-row flex-col px-6 mx-auto space-y-8 md:space-y-0  '>
       {links.map((link, i) => (
         <div key={i}>
           <div>
@@ -69,7 +69,7 @@ const NavLinks = () => {
                 )}
               </li>
               {openSubMenuIndex === i && link.submenu && (
-                <div className='absolute md:mt-[26px] mt-[50px] cursor-pointer'>
+                <div className='absolute md:mt-[26px]  cursor-pointer'>
                   <div className='bg-white min-w-[220px] px-[15px] py-[10px] shadow-lg'>
                     {link.subLinks.map((mysublinks, subIndex) => (
                       <div key={subIndex}>

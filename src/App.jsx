@@ -15,13 +15,14 @@ import BlogDetails from './Pages/BlogDetails/BlogDetails';
 import Contact from './Pages/Contact/Contact';
 import Checkout from './Pages/Checkout/Checkout';
 import Breadcrums from './Components/Breadcrums/Breadcrums';
+import NewNavbar from './Components/NewNavbar/NewNavbar';
 
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head />
-      <Navbar />
+      <Navbar/>
       <Breadcrums/>
       <div className="flex-grow">
         <Routes>

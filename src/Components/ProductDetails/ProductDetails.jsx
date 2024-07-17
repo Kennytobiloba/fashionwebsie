@@ -61,7 +61,9 @@ const ProductDetails = (props) => {
                 <p className='md:w-[100%] w-[70%] text-[18px] mt-4 mx-auto md:mx-0'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                 <div className='flex gap-4 items-center mt-6  justify-center md:justify-start'>
                     <input type="number" value={cartItems[product.id] } placeholder='1' className='w-[70px] bg-pink-100 border-gray-300 border-2 2xl:px-4 2xl:py-[1.2rem] py-[0.8rem] px-4 ' />
-                    <h6 onClick={()=>{addToCart(product.id)}}><a className="button capitalize 2xl:text-[16px] text-[14px] font-bold hover:bg-gray-500 md:p-4  inline-block  text-white bg-[#cf802e] py-4 px-6 md:px-2 " href="#">Add to cart</a></h6>
+                    <button onClick={()=>{addToCart(product.id)}}><a className="button 
+                    capitalize 2xl:text-[16px] text-[14px] font-bold hover:bg-gray-500 md:p-4
+                      inline-block  text-white bg-[#cf802e] py-4 px-6 md:px-2 " href="#">Add to cart</a></button>
                 </div>
                 <h6 className="mt-6 lg:text-[18px] text-[16px]  font-bold"><a href="#"><i className="fa fa-heart text-[#cf802e]"></i> Add to Wishlist</a></h6>
                 <h6 className="mt-4 lg:text-[18px] text-[16px]  capitalize"><span className="font-bold">SKU</span> / 1-2</h6>

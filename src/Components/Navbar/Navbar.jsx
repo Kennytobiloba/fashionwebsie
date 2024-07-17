@@ -32,7 +32,9 @@ const Navbar = () => {
      { toggle ? <i className="fa-solid fa-bars text-[28px]" onClick={()=> setToggle(false)}></i> : <i className="fa-regular fa-circle-xmark text-[28px]" onClick={()=> setToggle(true)}></i> }
      
      </div>
-     <div className='md:hidden flex  justify-center text-left p-[2rem] absolute top-[40px] right-0 min-w-[210px] border-r-4 space-y-4  '>
+    {
+      toggle ? "" :  <div className='md:hidden  bg-[#fcf9f6] mt-6 border rounded-md shadow-md mr-2 flex  justify-center text-left p-[2rem] 
+      absolute top-[40px] right-0 min-w-[210px] border-r-4 space-y-4  '>
      
       {/* mo bile section */}
       {
@@ -40,6 +42,7 @@ const Navbar = () => {
       }
 
      </div>
+    }
       </div>
     </div>
   )
